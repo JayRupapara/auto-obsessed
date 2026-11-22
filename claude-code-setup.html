@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Code setup checklist · AI DECODE EP 01</title>
+<meta name="description" content="Claude Code install and first-run checklist from the official docs.">
+<style>
+:root { --ink: #0f172a; --acc: #2563eb; --acc2: #7c3aed; --bg: #f8fafc; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; font-family: Inter, system-ui, -apple-system, sans-serif; color: var(--ink); background: var(--bg);
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px); background-size: 20px 20px; position: relative; overflow-x: hidden; }
+body::before { content: ""; position: fixed; inset: 0; pointer-events: none;
+  background: radial-gradient(520px 420px at 15% 8%, rgba(124,58,237,.16), transparent), radial-gradient(560px 460px at 90% 30%, rgba(37,99,235,.15), transparent); }
+main { position: relative; max-width: 560px; margin: 0 auto; padding: 32px 18px 56px; }
+.tag { display: inline-block; font: 700 13px ui-monospace, Menlo, monospace; letter-spacing: 1px; background: #fff; border: 3px solid var(--ink);
+  border-radius: 999px; padding: 6px 14px; box-shadow: 4px 4px 0 var(--ink); text-decoration: none; color: inherit; }
+h1 { font-size: 38px; line-height: 1.05; letter-spacing: -1.5px; margin: 20px 0 8px; font-weight: 900; }
+h1 span { color: var(--acc); }
+.sub { font-size: 18px; color: #334155; margin: 0 0 26px; line-height: 1.4; }
+.step { background: #fff; border: 4px solid var(--ink); border-radius: 22px; box-shadow: 7px 7px 0 var(--ink); padding: 18px 20px; margin: 0 0 20px; }
+.n { font: 800 14px ui-monospace, Menlo, monospace; color: var(--acc2); letter-spacing: 1px; }
+.step h2 { font-size: 22px; margin: 6px 0 8px; font-weight: 900; letter-spacing: -.3px; }
+.step p { margin: 0 0 10px; color: #334155; line-height: 1.45; }
+.lab { font: 700 13px ui-monospace, Menlo, monospace; color: #475569; margin: 10px 0 4px; }
+pre { margin: 0; background: var(--ink); color: #e2e8f0; border-radius: 12px; padding: 12px 14px; white-space: pre-wrap; word-break: break-all; font: 14px/1.5 ui-monospace, Menlo, Consolas, monospace; }
+footer { margin-top: 26px; color: #475569; font-size: 14px; line-height: 1.5; }
+a { color: var(--acc); font-weight: 700; }
+</style></head><body><main>
+<a class="tag" href="/">@obsessed.jay · AI DECODE EP 01</a>
+<h1>Claude Code <span>setup checklist</span></h1>
+<p class="sub">Reel ka free guide. Steps official docs se liye hain (22 Nov 2026 ko check kiye).</p>
+
+<section class="step"><span class="n">STEP 1</span><h2>Claude account chahiye</h2>
+<p>Zyada tar surfaces par Claude subscription ya Anthropic Console account lagta hai. Pehle account ban lo.</p></section>
+
+<section class="step"><span class="n">STEP 2</span><h2>Install karo</h2>
+<div class="lab">Windows PowerShell</div><pre>irm https://claude.ai/install.ps1 | iex</pre>
+<div class="lab">macOS, Linux, WSL</div><pre>curl -fsSL https://claude.ai/install.sh | bash</pre>
+<p style="margin-top:10px">Install ke time koi progress nahi dikhta. Wait karo.</p></section>
+
+<section class="step"><span class="n">STEP 3</span><h2>Check karo</h2>
+<p>Naya terminal window kholo aur chalao:</p><pre>claude --version</pre>
+<p style="margin-top:10px">Version number aaya, toh install theek hai.</p></section>
+
+<section class="step"><span class="n">STEP 4</span><h2>Apne project mein chalao</h2>
+<pre>cd your-project
+claude</pre>
+<p style="margin-top:10px">Pehli baar login ka prompt aata hai.</p></section>
+
+<section class="step"><span class="n">STEP 5</span><h2>"claude not found" aaye toh</h2>
+<p>Install folder PATH mein nahi hai. Docs ka "Fix your PATH" section dekho.</p></section>
+
+<footer>Source: <a href="https://code.claude.com/docs/en/overview" rel="noopener">code.claude.com/docs/en/overview</a>. Yeh independent guide hai, Anthropic ka official page nahi. Commands badal sakte hain, isliye docs se verify karo.<br><br>
+<a href="/">Aur free guides &rarr;</a></footer>
+</main></body></html>
