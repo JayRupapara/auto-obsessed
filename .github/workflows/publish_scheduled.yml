@@ -1,0 +1,42 @@
+name: publish-scheduled-reels
+
+# Checks every 15 minutes (GitHub may delay a run by several minutes) and posts any
+# Instagram Reel in schedule/queue.json whose publish_at time has passed.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-scheduled-reels
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Publish due reels
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+        run: python scripts/publish_instagram.py
+      - name: Save queue state
+        if: always()
+        run: |
+          git config user.name "AI DECODE hub"
+          git config user.email "noreply@users.noreply.github.com"
+          git add schedule/queue.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update schedule state"
+            git pull --rebase origin main
+            git push
+          fi
