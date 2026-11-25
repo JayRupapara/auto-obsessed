@@ -111,7 +111,23 @@ def save_state():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--check-token", action="store_true", help="Verify the secret works for @obsessed.jay; posts nothing")
     args = ap.parse_args()
+    if args.check_token:
+        token = os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
+        if not token:
+            print("Token check FAILED: the INSTAGRAM_ACCESS_TOKEN secret is missing or empty.")
+            return 1
+        try:
+            me = call(token, "GET", "me", fields="user_id,username")
+        except Failure as e:
+            print(f"Token check FAILED: {e}")
+            return 1
+        if me.get("username", "").lower() != EXPECTED_USER:
+            print("Token check FAILED: the token works but belongs to a different account.")
+            return 1
+        print(f"Token OK for @{EXPECTED_USER}. Nothing was posted.")
+        return 0
     data = json.loads(QUEUE.read_text(encoding="utf-8"))
     STATE["data"] = data
     due = [i for i in data["items"] if i["status"] in ("pending", "container_created") and parse(i["publish_at"]) <= now()
