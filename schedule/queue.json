@@ -1,63 +1,71 @@
 {
-    "note":  "Instagram Reels for scripts/publish_instagram.py. Times are UTC: 07:30 UTC = 1:00 PM IST, 13:30 UTC = 7:00 PM IST.",
-    "items":  [
-                  {
-                      "id":  "honor_700_9000mah_launch",
-                      "review_id":  "8f18f76ebefab7ccda6d",
-                      "publish_at":  "2026-11-26T07:30:00+00:00",
-                      "status":  "published",
-                      "video_url":  "https://obsessed-jay.vercel.app/media/honor700_9000mah.mp4",
-                      "caption":  "Honor 700 series China mein launch hui: 9,000 mAh battery, sirf 7.96 mm patli body, 1.59 inch ki rear screen aur 200 MP main camera.\n\nLaunch coverage se confirm hui baatein: 9,000 mAh, 7.96 mm, 211 g (Honor 700), 1.59 inch rear screen aur heart rate sensor. Screen par dikhaye gaye baaki battery-tech aur charging details launch coverage mein confirm nahi mile.\n\nTumhe agle phone mein kya chahiye?\nA: Badi battery\nB: Rear screen\nComment mein A ya B batao.\n\nVoiceover AI-generated hai. Source: Andro-News (23 Nov 2026).\n\n#Honor700 #TechNews #SmartphoneLaunch #ObsessedJay",
-                      "attempts":  1,
-                      "container_id":  "17977780551172587",
-                      "media_id":  "18124144786746358",
-                      "published_at":  "2026-11-26T09:19:15+00:00",
-                      "permalink":  "https://www.instagram.com/reel/DgMxAQStHiI/",
-                      "late_alerted":  true
-                  },
-                  {
-                      "id":  "cert_in_crafty_falcon_payment_apis",
-                      "review_id":  "1d05e925091efb348918",
-                      "publish_at":  "2026-11-26T13:30:00+00:00",
-                      "status":  "published",
-                      "video_url":  "https://obsessed-jay.vercel.app/media/bang_crafty_falcon.mp4",
-                      "caption":  "CERT-In ne Crafty Falcon ke baare mein Critical advisory (CIAD-2026-0058, 4 Nov 2026) di hai: AI-assisted attackers companies ke apne payment APIs ka galat use karke paisa nikaal rahe hain.\n\nYeh advisory companies ke payment systems ke baare mein hai, aapki bachat ke baare mein nahi. Screen par dikhaye gaye ₹ figures aur steps illustration hain, asli data nahi.\n\nAap kya sochte ho? Comment mein A ya B batao.\n\nVoiceover AI-generated hai. Sources: CERT-In advisory coverage (Moneylife, YourStory).\n\n#CERTIn #CyberSecurity #FintechSecurity #ObsessedJay",
-                      "attempts":  1,
-                      "container_id":  "17977813785172587",
-                      "media_id":  "18130843184302449",
-                      "published_at":  "2026-11-26T15:01:42+00:00",
-                      "permalink":  "https://www.instagram.com/reel/DgNYOhaB_zN/",
-                      "late_alerted":  true
-                  },
-                  {
-                      "id":  "google_maps_ask_maps_ai_calls",
-                      "review_id":  "58d1e07c111c39c3d29f",
-                      "publish_at":  "2026-11-26T16:30:00+00:00",
-                      "status":  "published",
-                      "video_url":  "https://obsessed-jay.vercel.app/media/ask_maps_ai_calls.mp4",
-                      "caption":  "Google Maps ke Ask Maps ne 16 Nov 2026 ko US mein naya feature shuru kiya: ab AI salon, pet care, auto repair aur home repair shops ko khud call karke khaali slot dhoondh sakta hai. Bas type karo: Find me a 4 p.m. slot near me.\n\nAbhi sirf US mein hai (kuch states chhodkar). India aur baaki regions aage aayenge, par dates confirm nahi hain. Screen par dikhaye gaye shop names aur timings illustration hain.\n\nTumhari call? A: AI call kare. B: Main khud call karunga. Comment mein A ya B batao.\n\nVoiceover AI-generated hai. Sources: Google Maps announcement coverage (ghacks, Search Engine Journal).\n\n#GoogleMaps #AskMaps #AINews #ObsessedJay",
-                      "attempts":  1,
-                      "container_id":  "17977824411172587",
-                      "media_id":  "18124706356960052",
-                      "published_at":  "2026-11-26T16:33:08+00:00",
-                      "permalink":  "https://www.instagram.com/reel/DgNipQrq50J/",
-                      "late_alerted":  true
-                  },
-                  {
-                      "id":  "nothing_ear_note_ai_recorder",
-                      "review_id":  "90e07b49a1b19223c34e",
-                      "publish_at":  "2026-11-27T13:30:00+00:00",
-                      "status":  "pending",
-                      "video_url":  "https://obsessed-jay.vercel.app/media/nothing_ear_note.mp4",
-                      "caption":  "Nothing ke earbuds ab tumhari calls aur meetings khud record karenge. Ear (note): charging case mein RECORD button, aur AI transcript + summary + action steps.\n\nNothing ne Ear (note) reveal kar diya hai, launch 8 Dec 2026 ko. Price, battery aur India availability abhi confirm nahi hai. Screen par dikhaye gaye features reveal coverage par based hain.\n\nTumhari call? A: Genius gadget. B: Privacy risk. Comment mein A ya B batao.\n\nSave karo, jab launch ho tab yaad rahe.\n\nVoiceover AI-generated hai. Sources: Wareable, 9to5Google.\n\n#NothingEarNote #Nothing #AIGadgets #TechNews #ObsessedJay"
-                  },
-                  {
-                      "id":  "claude_artifacts_install_as_app",
-                      "review_id":  "3833b80a5467a740d95b",
-                      "publish_at":  "2026-11-27T07:30:00+00:00",
-                      "status":  "pending",
-                      "video_url":  "https://obsessed-jay.vercel.app/media/claude_install_as_app.mp4",
-                      "caption":  "Ab Claude ka banaya app tumhare Mac ya Windows par apne icon aur window ke saath chalega. Coding aani zaroori nahi: bas chat mein likho, Build a focus timer for my Mac, phir Install as app dabao.\n\nClaude artifacts ke liye Install as app is hafte beta mein aaya hai (Claude Desktop, Mac aur Windows). Do permission levels hain: Default (browser jitna) aur App permissions (always-on-top window, shortcuts, notifications). Har request tumhare plan limit se katti hai. Screen par dikhaye gaye apps aur 66% bar example hain.\n\nTum pehla app kya banaoge? A: Productivity tool. B: Mini side-hustle app. Comment mein A ya B batao.\n\nVoiceover AI-generated hai. Sources: MacRumors, Android Headlines.\n\n#Claude #ClaudeAI #AITools #NoCode #ObsessedJay"
-                  }
-              ]
+  "note": "Instagram Reels for scripts/publish_instagram.py. Times are UTC: 07:30 UTC = 1:00 PM IST, 13:30 UTC = 7:00 PM IST.",
+  "items": [
+    {
+      "id": "honor_700_9000mah_launch",
+      "review_id": "8f18f76ebefab7ccda6d",
+      "publish_at": "2026-11-26T07:30:00+00:00",
+      "status": "published",
+      "video_url": "https://obsessed-jay.vercel.app/media/honor700_9000mah.mp4",
+      "caption": "Honor 700 series China mein launch hui: 9,000 mAh battery, sirf 7.96 mm patli body, 1.59 inch ki rear screen aur 200 MP main camera.\n\nLaunch coverage se confirm hui baatein: 9,000 mAh, 7.96 mm, 211 g (Honor 700), 1.59 inch rear screen aur heart rate sensor. Screen par dikhaye gaye baaki battery-tech aur charging details launch coverage mein confirm nahi mile.\n\nTumhe agle phone mein kya chahiye?\nA: Badi battery\nB: Rear screen\nComment mein A ya B batao.\n\nVoiceover AI-generated hai. Source: Andro-News (23 Nov 2026).\n\n#Honor700 #TechNews #SmartphoneLaunch #ObsessedJay",
+      "attempts": 1,
+      "container_id": "17977780551172587",
+      "media_id": "18124144786746358",
+      "published_at": "2026-11-26T09:19:15+00:00",
+      "permalink": "https://www.instagram.com/reel/DgMxAQStHiI/",
+      "late_alerted": true
+    },
+    {
+      "id": "cert_in_crafty_falcon_payment_apis",
+      "review_id": "1d05e925091efb348918",
+      "publish_at": "2026-11-26T13:30:00+00:00",
+      "status": "published",
+      "video_url": "https://obsessed-jay.vercel.app/media/bang_crafty_falcon.mp4",
+      "caption": "CERT-In ne Crafty Falcon ke baare mein Critical advisory (CIAD-2026-0058, 4 Nov 2026) di hai: AI-assisted attackers companies ke apne payment APIs ka galat use karke paisa nikaal rahe hain.\n\nYeh advisory companies ke payment systems ke baare mein hai, aapki bachat ke baare mein nahi. Screen par dikhaye gaye ₹ figures aur steps illustration hain, asli data nahi.\n\nAap kya sochte ho? Comment mein A ya B batao.\n\nVoiceover AI-generated hai. Sources: CERT-In advisory coverage (Moneylife, YourStory).\n\n#CERTIn #CyberSecurity #FintechSecurity #ObsessedJay",
+      "attempts": 1,
+      "container_id": "17977813785172587",
+      "media_id": "18130843184302449",
+      "published_at": "2026-11-26T15:01:42+00:00",
+      "permalink": "https://www.instagram.com/reel/DgNYOhaB_zN/",
+      "late_alerted": true
+    },
+    {
+      "id": "google_maps_ask_maps_ai_calls",
+      "review_id": "58d1e07c111c39c3d29f",
+      "publish_at": "2026-11-26T16:30:00+00:00",
+      "status": "published",
+      "video_url": "https://obsessed-jay.vercel.app/media/ask_maps_ai_calls.mp4",
+      "caption": "Google Maps ke Ask Maps ne 16 Nov 2026 ko US mein naya feature shuru kiya: ab AI salon, pet care, auto repair aur home repair shops ko khud call karke khaali slot dhoondh sakta hai. Bas type karo: Find me a 4 p.m. slot near me.\n\nAbhi sirf US mein hai (kuch states chhodkar). India aur baaki regions aage aayenge, par dates confirm nahi hain. Screen par dikhaye gaye shop names aur timings illustration hain.\n\nTumhari call? A: AI call kare. B: Main khud call karunga. Comment mein A ya B batao.\n\nVoiceover AI-generated hai. Sources: Google Maps announcement coverage (ghacks, Search Engine Journal).\n\n#GoogleMaps #AskMaps #AINews #ObsessedJay",
+      "attempts": 1,
+      "container_id": "17977824411172587",
+      "media_id": "18124706356960052",
+      "published_at": "2026-11-26T16:33:08+00:00",
+      "permalink": "https://www.instagram.com/reel/DgNipQrq50J/",
+      "late_alerted": true
+    },
+    {
+      "id": "nothing_ear_note_ai_recorder",
+      "review_id": "90e07b49a1b19223c34e",
+      "publish_at": "2026-11-27T13:30:00+00:00",
+      "status": "pending",
+      "video_url": "https://obsessed-jay.vercel.app/media/nothing_ear_note.mp4",
+      "caption": "Nothing ke earbuds ab tumhari calls aur meetings khud record karenge. Ear (note): charging case mein RECORD button, aur AI transcript + summary + action steps.\n\nNothing ne Ear (note) reveal kar diya hai, launch 8 Dec 2026 ko. Price, battery aur India availability abhi confirm nahi hai. Screen par dikhaye gaye features reveal coverage par based hain.\n\nTumhari call? A: Genius gadget. B: Privacy risk. Comment mein A ya B batao.\n\nSave karo, jab launch ho tab yaad rahe.\n\nVoiceover AI-generated hai. Sources: Wareable, 9to5Google.\n\n#NothingEarNote #Nothing #AIGadgets #TechNews #ObsessedJay"
+    },
+    {
+      "id": "claude_artifacts_install_as_app",
+      "review_id": "3833b80a5467a740d95b",
+      "publish_at": "2026-11-27T07:30:00+00:00",
+      "status": "pending",
+      "video_url": "https://obsessed-jay.vercel.app/media/claude_install_as_app.mp4",
+      "caption": "Ab Claude ka banaya app tumhare Mac ya Windows par apne icon aur window ke saath chalega. Coding aani zaroori nahi: bas chat mein likho, Build a focus timer for my Mac, phir Install as app dabao.\n\nClaude artifacts ke liye Install as app is hafte beta mein aaya hai (Claude Desktop, Mac aur Windows). Do permission levels hain: Default (browser jitna) aur App permissions (always-on-top window, shortcuts, notifications). Har request tumhare plan limit se katti hai. Screen par dikhaye gaye apps aur 66% bar example hain.\n\nTum pehla app kya banaoge? A: Productivity tool. B: Mini side-hustle app. Comment mein A ya B batao.\n\nVoiceover AI-generated hai. Sources: MacRumors, Android Headlines.\n\n#Claude #ClaudeAI #AITools #NoCode #ObsessedJay"
+    },
+    {
+      "id": "whatsapp_scheduled_messages",
+      "review_id": "2510e25dee6742284de2",
+      "publish_at": "2026-11-27T03:30:00+00:00",
+      "status": "pending",
+      "video_url": "https://obsessed-jay.vercel.app/media/whatsapp_scheduled_messages.mp4",
+      "caption": "Phone switch off ho ya battery khatam, ab WhatsApp par aapka message exact time par deliver ho jayega! 25 November 2026 ko WhatsApp ne Scheduled Messages announce kiya. Bas message type karo, Send button press and hold karo, aur 10 minute se 14 din aage ka date-time chuno.\n\nText, photo aur video, personal aur group chats mein schedule ho sakte hain. Messages end-to-end encrypted rehte hain. Rollout global hai aur kuch hafton mein sabko milega, isliye abhi aapke phone mein na dikhe toh chinta mat karo. Screen par dikhaye gaye messages aur timings example hain.\n\nAap pehle kya schedule karoge? Option A: birthday wish. Option B: office text. Comment mein A ya B batao!\n\nVoiceover AI-generated hai. Source: WhatsApp Blog.\n\n#WhatsApp #WhatsAppUpdate #TechExplainer #TechNewsIndia #SmartphoneTips #ObsessedJay"
+    }
+  ]
 }
