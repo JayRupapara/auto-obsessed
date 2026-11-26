@@ -101,6 +101,34 @@ def publish_item(token, item):
     item.pop("error", None)
 
 
+LATE_MINUTES = 20
+
+
+def check_alerts(data):
+    """Return (alarm lines, whether the queue changed).
+
+    OVERDUE: still not published more than LATE_MINUTES after its time.
+    LATE POST: published more than LATE_MINUTES after its time (reported once per item).
+    A non-empty list makes the run fail, so GitHub emails the owner.
+    """
+    alerts, changed = [], False
+    t = now()
+    for i in data["items"]:
+        due_at = parse(i["publish_at"])
+        if i["status"] in ("pending", "container_created", "failed"):
+            late = (t - due_at).total_seconds() / 60
+            if late > LATE_MINUTES:
+                alerts.append(f"OVERDUE: {i['id']} was due {i['publish_at']} ({late:.0f} min ago), status {i['status']}"
+                              + (f", last error {i['error']}" if i.get("error") else "") + ".")
+        elif i["status"] == "published" and not i.get("late_alerted") and i.get("published_at"):
+            late = (parse(i["published_at"]) - due_at).total_seconds() / 60
+            if late > LATE_MINUTES:
+                alerts.append(f"LATE POST: {i['id']} was published {late:.0f} min after its time ({i['publish_at']}).")
+            i["late_alerted"] = True
+            changed = True
+    return alerts, changed
+
+
 STATE = {}
 
 
@@ -135,26 +163,33 @@ def main():
     print(f"{len(due)} item(s) due of {len(data['items'])}")
     for i in data["items"]:
         print(f"  {i['id']}: {i['status']} at {i['publish_at']}")
-    if args.dry_run or not due:
-        return 0
-    token = os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
-    if not token:
-        print("INSTAGRAM_ACCESS_TOKEN secret is missing.")
-        return 1
     failed = False
-    for item in due:
-        item["attempts"] = item.get("attempts", 0) + 1
-        try:
-            publish_item(token, item)
-            print(f"published {item['id']} -> {item.get('permalink', item.get('media_id'))}")
-        except Failure as e:
-            item["error"] = str(e)
-            if item["attempts"] >= MAX_ATTEMPTS and item["status"] != "published":
-                item["status"] = "failed"
+    if not args.dry_run and due:
+        token = os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
+        if not token:
+            print("INSTAGRAM_ACCESS_TOKEN secret is missing.")
             failed = True
-            print(f"FAILED {item['id']}: {e}")
+        else:
+            for item in due:
+                item["attempts"] = item.get("attempts", 0) + 1
+                try:
+                    publish_item(token, item)
+                    print(f"published {item['id']} -> {item.get('permalink', item.get('media_id'))}")
+                except Failure as e:
+                    item["error"] = str(e)
+                    if item["attempts"] >= MAX_ATTEMPTS and item["status"] != "published":
+                        item["status"] = "failed"
+                    failed = True
+                    print(f"FAILED {item['id']}: {e}")
+                save_state()
+    alerts, changed = check_alerts(data)
+    if changed:
         save_state()
-    return 1 if failed else 0
+    for a in alerts:
+        print("ALARM:", a)
+    if args.dry_run:
+        return 0
+    return 1 if (failed or alerts) else 0
 
 
 if __name__ == "__main__":

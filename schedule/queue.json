@@ -1,31 +1,33 @@
 {
-  "note": "Instagram Reels for scripts/publish_instagram.py. Times are UTC: 07:30 UTC = 1:00 PM IST, 13:30 UTC = 7:00 PM IST.",
-  "items": [
-    {
-      "id": "honor_700_9000mah_launch",
-      "review_id": "8f18f76ebefab7ccda6d",
-      "publish_at": "2026-11-26T07:30:00+00:00",
-      "status": "published",
-      "video_url": "https://obsessed-jay.vercel.app/media/honor700_9000mah.mp4",
-      "caption": "Honor 700 series China mein launch hui: 9,000 mAh battery, sirf 7.96 mm patli body, 1.59 inch ki rear screen aur 200 MP main camera.\n\nLaunch coverage se confirm hui baatein: 9,000 mAh, 7.96 mm, 211 g (Honor 700), 1.59 inch rear screen aur heart rate sensor. Screen par dikhaye gaye baaki battery-tech aur charging details launch coverage mein confirm nahi mile.\n\nTumhe agle phone mein kya chahiye?\nA: Badi battery\nB: Rear screen\nComment mein A ya B batao.\n\nVoiceover AI-generated hai. Source: Andro-News (23 Nov 2026).\n\n#Honor700 #TechNews #SmartphoneLaunch #ObsessedJay",
-      "attempts": 1,
-      "container_id": "17977780551172587",
-      "media_id": "18124144786746358",
-      "published_at": "2026-11-26T09:19:15+00:00",
-      "permalink": "https://www.instagram.com/reel/DgMxAQStHiI/"
-    },
-    {
-      "id": "cert_in_crafty_falcon_payment_apis",
-      "review_id": "1d05e925091efb348918",
-      "publish_at": "2026-11-26T13:30:00+00:00",
-      "status": "published",
-      "video_url": "https://obsessed-jay.vercel.app/media/bang_crafty_falcon.mp4",
-      "caption": "CERT-In ne Crafty Falcon ke baare mein Critical advisory (CIAD-2026-0058, 4 Nov 2026) di hai: AI-assisted attackers companies ke apne payment APIs ka galat use karke paisa nikaal rahe hain.\n\nYeh advisory companies ke payment systems ke baare mein hai, aapki bachat ke baare mein nahi. Screen par dikhaye gaye ₹ figures aur steps illustration hain, asli data nahi.\n\nAap kya sochte ho? Comment mein A ya B batao.\n\nVoiceover AI-generated hai. Sources: CERT-In advisory coverage (Moneylife, YourStory).\n\n#CERTIn #CyberSecurity #FintechSecurity #ObsessedJay",
-      "attempts": 1,
-      "container_id": "17977813785172587",
-      "media_id": "18130843184302449",
-      "published_at": "2026-11-26T15:01:42+00:00",
-      "permalink": "https://www.instagram.com/reel/DgNYOhaB_zN/"
-    }
-  ]
+    "note":  "Instagram Reels for scripts/publish_instagram.py. Times are UTC: 07:30 UTC = 1:00 PM IST, 13:30 UTC = 7:00 PM IST.",
+    "items":  [
+                  {
+                      "id":  "honor_700_9000mah_launch",
+                      "review_id":  "8f18f76ebefab7ccda6d",
+                      "publish_at":  "2026-11-26T07:30:00+00:00",
+                      "status":  "published",
+                      "video_url":  "https://obsessed-jay.vercel.app/media/honor700_9000mah.mp4",
+                      "caption":  "Honor 700 series China mein launch hui: 9,000 mAh battery, sirf 7.96 mm patli body, 1.59 inch ki rear screen aur 200 MP main camera.\n\nLaunch coverage se confirm hui baatein: 9,000 mAh, 7.96 mm, 211 g (Honor 700), 1.59 inch rear screen aur heart rate sensor. Screen par dikhaye gaye baaki battery-tech aur charging details launch coverage mein confirm nahi mile.\n\nTumhe agle phone mein kya chahiye?\nA: Badi battery\nB: Rear screen\nComment mein A ya B batao.\n\nVoiceover AI-generated hai. Source: Andro-News (23 Nov 2026).\n\n#Honor700 #TechNews #SmartphoneLaunch #ObsessedJay",
+                      "attempts":  1,
+                      "container_id":  "17977780551172587",
+                      "media_id":  "18124144786746358",
+                      "published_at":  "2026-11-26T09:19:15+00:00",
+                      "permalink":  "https://www.instagram.com/reel/DgMxAQStHiI/",
+                      "late_alerted":  true
+                  },
+                  {
+                      "id":  "cert_in_crafty_falcon_payment_apis",
+                      "review_id":  "1d05e925091efb348918",
+                      "publish_at":  "2026-11-26T13:30:00+00:00",
+                      "status":  "published",
+                      "video_url":  "https://obsessed-jay.vercel.app/media/bang_crafty_falcon.mp4",
+                      "caption":  "CERT-In ne Crafty Falcon ke baare mein Critical advisory (CIAD-2026-0058, 4 Nov 2026) di hai: AI-assisted attackers companies ke apne payment APIs ka galat use karke paisa nikaal rahe hain.\n\nYeh advisory companies ke payment systems ke baare mein hai, aapki bachat ke baare mein nahi. Screen par dikhaye gaye ₹ figures aur steps illustration hain, asli data nahi.\n\nAap kya sochte ho? Comment mein A ya B batao.\n\nVoiceover AI-generated hai. Sources: CERT-In advisory coverage (Moneylife, YourStory).\n\n#CERTIn #CyberSecurity #FintechSecurity #ObsessedJay",
+                      "attempts":  1,
+                      "container_id":  "17977813785172587",
+                      "media_id":  "18130843184302449",
+                      "published_at":  "2026-11-26T15:01:42+00:00",
+                      "permalink":  "https://www.instagram.com/reel/DgNYOhaB_zN/",
+                      "late_alerted":  true
+                  }
+              ]
 }
