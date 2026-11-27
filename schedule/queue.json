@@ -55,9 +55,15 @@
       "id": "claude_artifacts_install_as_app",
       "review_id": "3833b80a5467a740d95b",
       "publish_at": "2026-11-27T07:30:00+00:00",
-      "status": "pending",
+      "status": "published",
       "video_url": "https://obsessed-jay.vercel.app/media/claude_install_as_app.mp4",
-      "caption": "Ab Claude ka banaya app tumhare Mac ya Windows par apne icon aur window ke saath chalega. Coding aani zaroori nahi: bas chat mein likho, Build a focus timer for my Mac, phir Install as app dabao.\n\nClaude artifacts ke liye Install as app is hafte beta mein aaya hai (Claude Desktop, Mac aur Windows). Do permission levels hain: Default (browser jitna) aur App permissions (always-on-top window, shortcuts, notifications). Har request tumhare plan limit se katti hai. Screen par dikhaye gaye apps aur 66% bar example hain.\n\nTum pehla app kya banaoge? A: Productivity tool. B: Mini side-hustle app. Comment mein A ya B batao.\n\nVoiceover AI-generated hai. Sources: MacRumors, Android Headlines.\n\n#Claude #ClaudeAI #AITools #NoCode #ObsessedJay"
+      "caption": "Ab Claude ka banaya app tumhare Mac ya Windows par apne icon aur window ke saath chalega. Coding aani zaroori nahi: bas chat mein likho, Build a focus timer for my Mac, phir Install as app dabao.\n\nClaude artifacts ke liye Install as app is hafte beta mein aaya hai (Claude Desktop, Mac aur Windows). Do permission levels hain: Default (browser jitna) aur App permissions (always-on-top window, shortcuts, notifications). Har request tumhare plan limit se katti hai. Screen par dikhaye gaye apps aur 66% bar example hain.\n\nTum pehla app kya banaoge? A: Productivity tool. B: Mini side-hustle app. Comment mein A ya B batao.\n\nVoiceover AI-generated hai. Sources: MacRumors, Android Headlines.\n\n#Claude #ClaudeAI #AITools #NoCode #ObsessedJay",
+      "attempts": 1,
+      "container_id": "17977895109172587",
+      "media_id": "17978938628938473",
+      "published_at": "2026-11-27T07:32:17+00:00",
+      "permalink": "https://www.instagram.com/reel/DgPJlkiCGjc/",
+      "late_alerted": true
     },
     {
       "id": "whatsapp_scheduled_messages",
